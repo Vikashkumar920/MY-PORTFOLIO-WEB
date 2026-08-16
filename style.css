@@ -953,3 +953,101 @@ footer p{
 .navbar{
     box-shadow:0 5px 25px rgba(0,0,0,.2);
 }
+@media (max-width: 768px){
+
+  .navbar{
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .nav-links{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .resume-btn{
+    display:none;
+  }
+
+  .hero{
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .hero-content{
+    width:100%;
+  }
+
+  .hero-content h1{
+    font-size: 48px;
+  }
+
+  .hero-content h2{
+    font-size: 24px;
+  }
+
+  .hero-desc{
+    font-size:16px;
+    max-width:100%;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .social-links{
+    justify-content:center;
+  }
+
+  .hero-image{
+    width:100%;
+    height:auto;
+  }
+
+  .hero-image img{
+    width:280px;
+    height:280px;
+  }
+
+  .circle-glow{
+    width:320px;
+    height:320px;
+  }
+
+  .floating-icon{
+    width:55px;
+    height:55px;
+    font-size:22px;
+  }
+
+  .icon1{ top:20px; left:0px; }
+  .icon2{ top:20px; right:0px; }
+  .icon3{ bottom:20px; left:0px; }
+  .icon4{ bottom:20px; right:0px; }
+
+  .section-title{
+    font-size:36px;
+  }
+
+  .about-box{
+    padding:25px;
+    font-size:16px;
+  }
+
+  .contact-card{
+    min-width:100%;
+  }
+
+  .project-grid{
+    grid-template-columns:1fr;
+  }
+
+  .stats{
+    grid-template-columns:1fr;
+  }
+}
